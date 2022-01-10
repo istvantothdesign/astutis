@@ -1,3 +1,5 @@
+document.onload = astCourseCards;
+function astCourseCards() {
   const astCourseCard = document.querySelectorAll(
     ".card-img.dashboard-card-img"
   );
@@ -6,12 +8,12 @@
     skinLower = skin.toString().toLowerCase();
 
     switch (skinLower) {
-      //   case "rospa":
-      //     for (i = 0; i < astCourseCard.length; ++i) {
-      //       astCourseCard[i].style.backgroundImage =
-      //         "url('https://www.barton.co.uk/wp-content/uploads/sites/10/2019/07/ROSPA-logo.jpg')";
-      //     }
-      //     break;
+      case "rospa":
+        for (i = 0; i < astCourseCard.length; ++i) {
+          astCourseCard[i].style.backgroundImage =
+            "url(`https://www.barton.co.uk/wp-content/uploads/sites/10/2019/07/ROSPA-logo.jpg`)";
+        }
+        break;
       case "meta":
         for (i = 0; i < astCourseCard.length; ++i) {
           astCourseCard[i].style.backgroundImage =
@@ -21,9 +23,10 @@
       case "twitter":
         for (i = 0; i < astCourseCard.length; ++i) {
           astCourseCard[i].style.backgroundImage =
-            "url('https://1000logos.net/wp-content/uploads/2021/04/Twitter-Logo-2010.png')";
+            "url(https://1000logos.net/wp-content/uploads/2021/04/Twitter-Logo-2010.png)";
         }
         break;
     }
   }
   changeCards();
+}
