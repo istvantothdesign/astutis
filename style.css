@@ -1009,6 +1009,13 @@ h2 {
   content: url("https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/explore-more-icon.png");
 }
 
+/*Exit activity button (visible in SCORM activities)*/
+#page-header .ml-auto.d-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* Leagacy
 .ast-floater {
   width: 450px;
