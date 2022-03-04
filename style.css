@@ -860,6 +860,15 @@ h2 {
   margin: 10px 10px 10px 10px;
 }
 
+.ast-case-law {
+  width: 130px;
+  height: 130px;
+}
+
+.ast-case-law img {
+  width: 120px;
+}
+
 .ast-discovery {
   background: #ff9a15;
 }
